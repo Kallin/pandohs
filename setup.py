@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import setup
 
 setup(name='pandohs',
       packages=['pandohs'],
@@ -9,4 +9,7 @@ setup(name='pandohs',
       author='Kallin Nagelberg',
       author_email='kallin.nagelberg@gmail.com',
       url='https://github.com/Kallin/pandohs',
+      install_requires=[
+          'pandas',
+      ],
       )
