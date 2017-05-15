@@ -9,7 +9,7 @@ setup(name='pandohs',
       author='Kallin Nagelberg',
       author_email='kallin.nagelberg@gmail.com',
       url='https://github.com/Kallin/pandohs',
-      install_requires=[
-          'pandas',
-      ],
+      install_requires=['pandas'],
+      setup_requires=['pytest-runner'],
+      tests_require=['pytest']
       )

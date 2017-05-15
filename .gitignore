@@ -8,3 +8,7 @@ MANIFEST
 build/
 dist/
 pandohs.egg-info/
+.cache/
+.eggs/
+pandohs/__pycache__/
+pandohs/tests/__pycache__/
